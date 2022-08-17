@@ -1,0 +1,27 @@
+{
+  "name": "S4-06-M4-Ativ-Logica-Create-e-Read-de-Usuario-TS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fabiojcp/S4-06-M4-Ativ-Logica-Create-e-Read-de-Usuario-TS.git",
+  "author": "Fabiojcp <fabio50019@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^18.7.6",
+    "@types/uuid": "^8.3.4",
+    "ts-node-dev": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  }
+}
